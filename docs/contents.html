@@ -14,7 +14,7 @@ Each link will take you to a github folder where you can view or download the co
 * [Communicating](../7)
 * [Animation/Behaviour](../8)
 * [GUI/Web Scraping](../ABM)
-* [Documentation](sphinx/index1.html)
+* [Documentation](index1.html)
 
 
 ### Independant Programming Project
