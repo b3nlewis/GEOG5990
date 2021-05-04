@@ -4,7 +4,7 @@ This webpage will give access to the different projects I have completed during 
 Each link will take you to a github folder where you can view or download the code.
 
 ### Practical Workshops
-* [GEOG5990 Homepage] (https://github.com/b3nlewis/GEOG5990)
+* [GEOG5990 Homepage](https://github.com/b3nlewis/GEOG5990)
 * [Agent Based Modelling](https://github.com/b3nlewis/GEOG5990/tree/main/1)
 * [Code Shrinking I](https://github.com/b3nlewis/GEOG5990/tree/main/2)
 * [Code Shrinking II](https://github.com/b3nlewis/GEOG5990/tree/main/3)
