@@ -4,7 +4,7 @@
 
 This repository contains all of the work I have completed for GEOG5990.
 There were nine practicals in this course and there are links to all nine folders with all of the necessary code contained.
-The nine practicals get more complex with practical nine being the final product. Read the documentation before using. To view all code click on the [Contents Page](index.md)
+The nine practicals get more complex with practical nine being the final product. Read the documentation before using.
 
 ### Practical 1
 A simple agent based model, where two points randomly move around a space and the distance between them is calculated.
@@ -35,4 +35,4 @@ A GUI was added to run and exit the script. Additional help information was adde
 
 ## Running the model
 Before running the model in command line type:<b> "python model.py -h" </b>.
-This will display additional information to help you run the model. The model can be run without any additional parameters added as there are defaults. However, arguments can be added using<b> -a, -i, -n</b>. A GUI will appear, click run in the menu bar. The model will run. When it is completed the command line will tell you when you can exit the model. On exit, data will be exported in txt files. [Documentation](docs/index.html) is available.
+This will display additional information to help you run the model. The model can be run without any additional parameters added as there are defaults. However, arguments can be added using<b> -a, -i, -n</b>. A GUI will appear, click run in the menu bar. The model will run. When it is completed the command line will tell you when you can exit the model. On exit, data will be exported in txt files. [Documentation](https://b3nlewis.github.io/GEOG5990/sphinx/_build/html/index.html) is available.
