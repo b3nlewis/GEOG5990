@@ -4,8 +4,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="lang:clipboard.copy" content="Copy to clipboard">
@@ -47,7 +46,7 @@
   
   
   
-    <title>model module &#8212; Agent Based Model 1 documentation</title>
+    <title>Index &#8212; Agent Based Model 1 documentation</title>
     <link rel="stylesheet" href="_static/material.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -55,9 +54,8 @@
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/language_data.js"></script>
-    <link rel="index1" title="index1" href="genindex1.html" />
+    <link rel="index" title="Index" href="#" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="agentframework module" href="agentframework.html" />
   
    
 
@@ -76,12 +74,12 @@
   <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer">
   <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search">
   <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
-  <a href="#model" tabindex1="1" class="md-skip"> Skip to content </a>
+  <a href="#genindex" tabindex="1" class="md-skip"> Skip to content </a>
   <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid">
     <div class="md-flex navheader">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="index1.html" title="Agent Based Model 1 documentation"
+        <a href="index.html" title="Agent Based Model 1 documentation"
            class="md-header-nav__button md-logo">
           
             &nbsp;
@@ -94,7 +92,7 @@
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           <span class="md-header-nav__topic">Agent Based Model 1 documentation</span>
-          <span class="md-header-nav__topic"> model module </span>
+          <span class="md-header-nav__topic"> Index </span>
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
@@ -108,7 +106,7 @@
              autocapitalize="off" autocomplete="off" spellcheck="false"
              data-md-component="query" data-md-state="active">
       <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex1="-1">
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
         &#xE5CD;
       </button>
     </form>
@@ -150,8 +148,7 @@
   <nav class="md-tabs" data-md-component="tabs">
     <div class="md-tabs__inner md-grid">
       <ul class="md-tabs__list">
-          <li class="md-tabs__item"><a href="index1.html" class="md-tabs__link">Agent Based Model 1 documentation</a></li>
-          <li class="md-tabs__item"><a href="modules.html" class="md-tabs__link">ABM</a></li>
+          <li class="md-tabs__item"><a href="index.html" class="md-tabs__link">Agent Based Model 1 documentation</a></li>
       </ul>
     </div>
   </nav>
@@ -163,12 +160,12 @@
               <div class="md-sidebar__inner">
                 <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="index1.html" title="Agent Based Model 1 documentation" class="md-nav__button md-logo">
+    <a href="index.html" title="Agent Based Model 1 documentation" class="md-nav__button md-logo">
       
         <img src="_static/" alt=" logo" width="48" height="48">
       
     </a>
-    <a href="index1.html"
+    <a href="index.html"
        title="Agent Based Model 1 documentation">Agent Based Model 1 documentation</a>
   </label>
   
@@ -184,7 +181,6 @@
 <nav class="md-nav md-nav--secondary">
   <ul class="md-nav__list" data-md-scrollfix="">
     
-<li class="md-nav__item"><a class="md-nav__extra_link" href="_sources/model.rst.txt">Show Source</a> </li>
 
 <li id="searchbox" class="md-nav__item"></li>
 
@@ -197,74 +193,156 @@
         <div class="md-content">
           <article class="md-content__inner md-typeset" role="main">
             
-  <section id="module-model">
-<span id="model-module"></span><h1 id="model--page-root">model module<a class="headerlink" href="#model--page-root" title="Permalink to this headline">¶</a></h1>
-<p># -<em>- coding: utf-8 -</em>-</p>
-<p>Created on Tue Mar  2 11:05:18 2021</p>
-<p>This is a program which generates an agent based model.
-The model simulates sheep grazing in an environment.
-Sheep (agents) can move, eat and share resources with other agents.
-The program will finish when all agents have a randomly generated store value.
-Requires agentframework.py to run.</p>
-<p>@author: b3nle</p>
-<dl class="py function">
-<dt id="model.exiting">
-<code class="sig-prename descclassname">model.</code><code class="sig-name descname">exiting</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#model.exiting" title="Permalink to this definition">¶</a></dt>
-<dd><p>When GUI is closed, this function stops the program.
-It outputs the environment and total units stored to txt files.
-It also checks to see if the program ran correctly checking the total
-units stored meets the store requirements.</p>
-<p>Environment Raster
-total: total stored units for all agents.</p>
-<p>dataout.txt: environment 
-stored.txt: total stored units.</p>
-</dd></dl>
-<dl class="py function">
-<dt id="model.gen_function">
-<code class="sig-prename descclassname">model.</code><code class="sig-name descname">gen_function</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#model.gen_function" title="Permalink to this definition">¶</a></dt>
-<dd><p>Provides a stopping variable for Matplotlib.animation.</p>
-<p>int: a</p>
-</dd></dl>
-<dl class="py function">
-<dt id="model.main">
-<code class="sig-prename descclassname">model.</code><code class="sig-name descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#model.main" title="Permalink to this definition">¶</a></dt>
-<dd><p>in.txt: Input environment raster
-HTML document: Provides agents starting position.</p>
-<p>Environment Raster
-Agent starting locations for agentframework</p>
-</dd></dl>
-<dl class="py function">
-<dt id="model.runAnimation">
-<code class="sig-prename descclassname">model.</code><code class="sig-name descname">runAnimation</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#model.runAnimation" title="Permalink to this definition">¶</a></dt>
-<dd><p>Function creates a figure based upon previous variables and functions by
-using the Matplotlib.animation module. The number of frames is calculated
-in the gen function.</p>
-<p>fig: size of figure to be created.
-update: provides inputs to be displayed on figure
-gen_function: provides stoppping condition.</p>
-<p>figure</p>
-</dd></dl>
-<dl class="py function">
-<dt id="model.update">
-<code class="sig-prename descclassname">model.</code><code class="sig-name descname">update</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">frame_number</span></em><span class="sig-paren">)</span><a class="headerlink" href="#model.update" title="Permalink to this definition">¶</a></dt>
-<dd><p>This allows each agents to move, eat and share values.
-Agents are randomly shuffled each iteration.
-A stopping variable is created in this function. This is dependant
-on the stopping condition created in initialisation and the number of agents.
-This function is used in the update funcion which creates
-an animation in step 3.</p>
-<p>frame_number:</p>
-<p>Bool: Stopping Condition (True/False)
-Float: Agents x and y position each iteration.</p>
-</dd></dl>
-<dl class="py function">
-<dt id="model.wait_fig">
-<code class="sig-prename descclassname">model.</code><code class="sig-name descname">wait_fig</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#model.wait_fig" title="Permalink to this definition">¶</a></dt>
-<dd><p>Function requires figure to remain open unitl all code has run and
-figure has shown all agent iterations.</p>
-<p>Animation sequence.</p>
-</dd></dl>
-</section>
+
+<h1 id="index">Index</h1>
+
+<div class="genindex-jumpbox">
+ <a href="#A"><strong>A</strong></a>
+ | <a href="#D"><strong>D</strong></a>
+ | <a href="#E"><strong>E</strong></a>
+ | <a href="#G"><strong>G</strong></a>
+ | <a href="#M"><strong>M</strong></a>
+ | <a href="#R"><strong>R</strong></a>
+ | <a href="#S"><strong>S</strong></a>
+ | <a href="#U"><strong>U</strong></a>
+ | <a href="#W"><strong>W</strong></a>
+ | <a href="#X"><strong>X</strong></a>
+ | <a href="#Y"><strong>Y</strong></a>
+ 
+</div>
+<h2 id="A">A</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="agentframework.html#agentframework.Agent">Agent (class in agentframework)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    agentframework
+
+      <ul>
+        <li><a href="agentframework.html#module-agentframework">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="D">D</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="agentframework.html#agentframework.Agent.distance_between">distance_between() (agentframework.Agent method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="E">E</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="agentframework.html#agentframework.Agent.eat">eat() (agentframework.Agent method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="model.html#model.exiting">exiting() (in module model)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="G">G</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="model.html#model.gen_function">gen_function() (in module model)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="agentframework.html#agentframework.Agent.getx">getx() (agentframework.Agent method)</a>
+</li>
+      <li><a href="agentframework.html#agentframework.Agent.gety">gety() (agentframework.Agent method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="M">M</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="model.html#model.main">main() (in module model)</a>
+</li>
+      <li>
+    model
+
+      <ul>
+        <li><a href="model.html#module-model">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    module
+
+      <ul>
+        <li><a href="agentframework.html#module-agentframework">agentframework</a>
+</li>
+        <li><a href="model.html#module-model">model</a>
+</li>
+      </ul></li>
+      <li><a href="agentframework.html#agentframework.Agent.move">move() (agentframework.Agent method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="R">R</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="model.html#model.runAnimation">runAnimation() (in module model)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="S">S</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="agentframework.html#agentframework.Agent.setx">setx() (agentframework.Agent method)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="agentframework.html#agentframework.Agent.sety">sety() (agentframework.Agent method)</a>
+</li>
+      <li><a href="agentframework.html#agentframework.Agent.share_with_neighbours">share_with_neighbours() (agentframework.Agent method)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="U">U</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="model.html#model.update">update() (in module model)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="W">W</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="model.html#model.wait_fig">wait_fig() (in module model)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="X">X</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="agentframework.html#agentframework.Agent.x">x() (agentframework.Agent property)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="Y">Y</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="agentframework.html#agentframework.Agent.y">y() (agentframework.Agent property)</a>
+</li>
+  </ul></td>
+</tr></table>
+
 
 
           </article>
@@ -275,19 +353,6 @@ figure has shown all agent iterations.</p>
   <footer class="md-footer">
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
-          
-            <a href="agentframework.html" title="agentframework module"
-               class="md-flex md-footer-nav__link md-footer-nav__link--prev"
-               rel="prev">
-              <div class="md-flex__cell md-flex__cell--shrink">
-                <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
-              </div>
-              <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-                <span class="md-flex__ellipsis">
-                  <span
-                      class="md-footer-nav__direction"> Previous </span> agentframework module </span>
-              </div>
-            </a>
           
           
         </a>
