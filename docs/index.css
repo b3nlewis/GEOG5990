@@ -1,0 +1,101 @@
+/* CSS Style for Header */
+.header { /* grid display to align all components*/
+background-color: rgb(1, 122, 195);
+padding: 20px 20px;
+display: grid;
+height: auto;
+align-content: start;
+grid-template-columns: auto auto auto;
+grid-gap: 10px;
+text-align: center;
+color: white;
+font-family: verdana;
+font-size: 20px;
+}
+
+.title {
+	color: white;
+	transition-duration: 2s;
+}
+
+.title:hover {
+	color: #4CAF50;
+	transition-duration: 2s;
+}
+
+/* CSS Style for Navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(1, 105, 175);
+  border-bottom-style:solid;
+  border-bottom-color: rgba(255, 255, 255, 0.8);
+  border-bottom-width:5px;
+  border-top-style:solid;
+  border-top-color: rgba(255, 255, 255, 0.8);
+  border-top-width:5px;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition-duration: 1s;
+}
+
+li a:hover {
+  background-color: midnightblue;
+}
+  
+.active {
+  background-color: #4CAF50;
+  font-weight: bold;
+}
+
+/* CSS Style for Main body, makes it in two columns. */
+.main{
+	margin: auto;
+	padding: 50px 50px;
+	font-family: verdana;
+	font-size: 16;
+	text-align: center;
+	line-height: 1.5;
+	display: grid;
+	height: auto;
+	align-content: start;
+	background-color: rgb(1, 122, 195);
+}
+
+.main >div{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 16px;
+ }
+ 
+.links>li{
+	float: roght;
+}
+
+/* CSS Style for bottom pane */
+.bpane{
+	text-align: center;
+	font-family: verdana;
+	font-size: 16px;
+	color: rgb(75, 75, 75);
+	background-color: rgb(30, 30, 30);
+	padding: 14px;
+	line-height: 2;
+}

@@ -1,0 +1,86 @@
+<DOCTYPE html>
+<head>
+<link rel="stylesheet" href="index.css">  
+</head>
+<body>
+<div class = "header">
+	<!-- This is the header section of the web page, which displays the logo and title -->
+</div>
+
+<!-- This is the navigation bar where you can navigate between pages-->
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a class="active" href="abm.html">ABM</a></li>
+  <li><a href="assignment2.html">assignment 2</a></li>
+</ul>
+<!--Main text of website-->
+<div class = "main">
+<div>
+<h1>Agent Based Model</h1>
+<p>This webpage will give access to the different projects I have completed during the module.
+Each link will take you to a github folder where you can view or download the code.</p>
+
+<h3>External Links</h3>
+<p><a href="https://github.com/b3nlewis/GEOG5990">Github Homepage</a></p>
+<p><a href="https://github.com/b3nlewis/GEOG5990/tree/main/1">Agent Based Modelling</a></p>
+<p><a href="https://github.com/b3nlewis/GEOG5990/tree/main/2">Code Shrinking I</a></p>
+<p><a href="https://github.com/b3nlewis/GEOG5990/tree/main/3">Code Shrinking II</a></p>
+<p><a href="https://github.com/b3nlewis/GEOG5990/tree/main/4">Building Tools</a></p>
+<p><a href="https://github.com/b3nlewis/GEOG5990/tree/main/5">Agents!</a></p>
+<p><a href="https://github.com/b3nlewis/GEOG5990/tree/main/6">I/O</a></p>
+<p><a href="https://github.com/b3nlewis/GEOG5990/tree/main/7">Communicating</a></p>
+<p><a href="https://github.com/b3nlewis/GEOG5990/tree/main/8">Animation/Behaviour</a></p>
+<p><a href="https://github.com/b3nlewis/GEOG5990/tree/main/ABM">GUI/Web Scraping</a></p>
+<p><a href="sphinx/index.html">ABM Documentation</a></p>
+
+<h3>About ABM</h3>
+
+<p>The final version of the agent based model (ABM), which is available from the GUI/ Web Scraping link is a
+combination of all the processes I have learnt in GEOG5990. There is documentation for this model from the 
+documentation link or in the docs section of ABM on Github.</p> 
+
+<h3>Summary</h3>
+
+<p>The ABM allows agents (sheep) to interact with the environment and each other. Agents are placed randomly in the starting environment, each update the agents move randomly one unit,
+eat the environment and prescribed amount, and if within range of other agents share food. Additionally, the agents have a random chance of sicking up food units which then adds to
+the environment. The model continues to run until the stopping condition is met. The stopping condition is based on a randomly generated food total (between 60 and 100) and the number
+of agents. When all of the agents meet the food total the program stops. When exiting the program, the environment, food stored and time completion are exported to txt files.</p>
+
+<h3>Associated files</h3>
+
+<p>Input: in
+      A txt file with values which range between 0 and 255. This is the environment and the agents eat this.
+      
+Output: dataout
+      This is the environment after the model has completed. It will be altered due to agents eating it.
+
+Output: store
+      This is the total amount of food units stored by all agents. 
+
+Output: time
+      Records how long the script takes to complete. Normally takes between 3 to 4 seconds.
+
+Documentation: A sphinx html has been created which has detailed descriptions of functions.</p>
+
+      
+<h3>How to use</h3>
+
+<p>This script can be run in IDLE or command line. Using the command line is recommended as variables (number of agents, number of iterations and neighbourhood size) can be changed.
+Varaibles are optional and defaults of 50, 20, 20 are set. In order to use command line type "python model.py -h" to bring up help information.</p>
+
+<h3>Testing</h3>
+
+<p>This script has been tested on two different computers using both Spyder and AnacondaPrompt. Both work on both computers.
+The script has been tested using different parameters. The script can only use 100 agents at a time due to limitations with the html website used to randomly place agents in a scene.
+Therefore an if statement was implemented to detect agent numbers over 100 and provide a new value.
+Additionally, all sections have time code so that the amount of time they were active for could be monitored.
+Finally, test code was added at the bottom to detect if the script finsihed early. If the agents did not store enough food a message would print saying the script has failed. Failures
+happen when the script is closed early and when the code was unfinished.</p>
+
+</div>
+</div>
+<div class = "bpane">
+<!-- Bottom pane displaying author name-->
+<p> Ben Lewis<br>201475113<br>University of Leeds<br>GEOG5990</p>
+</div>
+</body>
