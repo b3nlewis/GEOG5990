@@ -5,11 +5,11 @@ Each link will take you to a github folder where you can view or download the co
 ## Contents Page
 
 ### Practical Workshops
-* [Agent Based Modelling](../1)
-* [Code Shrinking I](../2)
-* [Code Shrinking II](../3)
-* [Building Tools](../4)
-* [Agents!](../5)
+* [Agent Based Modelling](./1)
+* [Code Shrinking I](./2)
+* [Code Shrinking II](./3)
+* [Building Tools](./4)
+* [Agents!](./5)
 * [I/O](../6)
 * [Communicating](../7)
 * [Animation/Behaviour](../8)
