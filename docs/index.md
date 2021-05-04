@@ -1,12 +1,20 @@
-# Contents Page
+# GEOG5990 Programming Online Portfolio
+This webpage is made using the Slate Jekyll Theme.
+This webpage will give access to the different projects I have completed during the module.
+Each link will take you to a github folder where you can view or download the code.
+## Contents Page
 
-Practical 1
-Practical 2
-Practical 3
-Practical 4
-Practical 5
-Practical 6
-Practical 7
-Practical 8
-Practical 9
-Documentation
+### Practical Workshops
+* [Agent Based Modelling](../1)
+* [Code Shrinking I](../2)
+* [Code Shrinking II](../3)
+* [Building Tools](../4)
+* [Agents!](../5)
+* [I/O](../6)
+* [Communicating](../7)
+* [Animation/Behaviour](../8)
+* [GUI/Web Scraping](../ABM)
+* [Documentation](sphinx/index1.html)
+
+
+### Independant Programming Project
