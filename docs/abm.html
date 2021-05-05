@@ -11,7 +11,7 @@
 <ul>
   <li><a href="index.html">Home</a></li>
   <li><a class="active" href="abm.html">ABM</a></li>
-  <li><a href="assignment2.html">assignment 2</a></li>
+  <li><a href="assignment2.html">Assignment 2</a></li>
 </ul>
 <!--Main text of website-->
 <div class = "main">
@@ -42,25 +42,26 @@ documentation link or in the docs section of ABM on Github. Refer to the readme 
 <h3>Summary</h3>
 
 <p>The ABM allows agents (sheep) to interact with the environment and each other. Agents are placed randomly in the starting environment, each update the agents move randomly one unit,
-eat the environment and prescribed amount, and if within range of other agents share food. Additionally, the agents have a random chance of sicking up food units which then adds to
+eat the environment a prescribed amount, based upon random food generator, and if within range of other agents share food. Additionally, the agents have a random chance of sicking up food units which then adds to
 the environment. The model continues to run until the stopping condition is met. The stopping condition is based on a randomly generated food total (between 60 and 100) and the number
 of agents. When all of the agents meet the food total the program stops. When exiting the program, the environment, food stored and time completion are exported to txt files.</p>
 
 <h3>Associated files</h3>
 
-<p>Input: in.</p>
+<p><b>Input: in.txt</b></p>
       <p>A txt file with values which range between 0 and 255. This is the environment and the agents eat this.</p>
       
-Output: dataout
-      This is the environment after the model has completed. It will be altered due to agents eating it.
+<p><b>Output: dataout.txt</b></p>
+      <p>This is the environment after the model has completed. It will be altered due to agents eating it.</p>
 
-Output: store
-      This is the total amount of food units stored by all agents. 
+<p><b>Output: store.txt</b></p>
+      <p>This is the total amount of food units stored by all agents.</P>
 
-Output: time
-      Records how long the script takes to complete. Normally takes between 3 to 4 seconds.
+<p><b>Output: time.txt</b></p>
+      <p>Records how long the script takes to complete. Normally takes between 3 to 4 seconds.</p>
 
-Documentation: A sphinx html has been created which has detailed descriptions of functions.</p>
+<p><b>Documentation: HTML files</b></p>
+		<p>A sphinx html has been created which has detailed descriptions of functions.</p>
 
       
 <h3>How to use</h3>
