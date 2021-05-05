@@ -1,5 +1,5 @@
 /* CSS Style for Header */
-.header { /* grid display to align all components*/
+.header { 
 background-color: #2c3531;
 padding: 20px 20px;
 display: grid;
@@ -21,7 +21,7 @@ ul {
 
 }
 
-li {
+li {/*Get nav icons on left of screen*/
   float: left;
 }
 
@@ -60,7 +60,7 @@ li a:hover {
 	background-color: #2c3531;
 }
 
-.main >div{
+.main >div{/*/creates space where content will go*/
   background-color: #d1e8e2;
   text-align: center;
   padding: 20px 20px;
